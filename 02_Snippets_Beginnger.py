@@ -144,4 +144,22 @@ elif user_input==3:
 else:
     print('Fuck you .|.')
 '''
+'''
 #39. Use a dictionary to store and retrieve contact names and numbers
+contact_table = []
+contact_dict = {'name':'Andres','contact':88998022}
+contact_table.append(contact_dict)
+contact_dict = {'name':'Pablo','contact':78663322}
+contact_table.append(contact_dict)
+contact_dict = {'name':'Carlos','contact':27273838}
+contact_table.append(contact_dict)
+print(contact_table)
+'''
+'''
+#40. Count down from 10 to 1 using a loop
+x = 10
+while x>0:
+    print(x)
+    x = x-1
+print('Congratulations!')
+'''
